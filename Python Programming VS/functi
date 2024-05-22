@@ -1,0 +1,7 @@
+def sq_nm(number):
+    squared=[]
+    for n in number:
+        squared.append(n*n)
+    return squared
+arr=[2,5,6,89,12]
+print(sq_nm(arr))

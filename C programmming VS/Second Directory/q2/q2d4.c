@@ -1,4 +1,3 @@
-//wap to sparse matrix three tuple format find out the matrix
 #include<stdio.h>
 int n,i,j,fe,se,te;
 void sparsetn(int spr[te][3],int *n)
@@ -14,7 +13,7 @@ void sparsetn(int spr[te][3],int *n)
 }
 void main()
 {
-    printf("Enter the 3 tupled sparse matrix row by row:\n");
+    printf("Enter the 3 tupled form of sparse matrix row by row:\n");
     scanf("%d %d %d",&fe, &se, &te);
     int spr[++te][3];
     spr[0][0]=fe;
